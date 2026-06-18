@@ -23,6 +23,8 @@ This reduces the chance of broken parent/child relationships, lost form IDs, mis
 
 I've recently had more success with planning each section methodically - first I'll define the structure of a section with the agent, then ask it to mock the page up based on our decisions (ChatGPT's generative image tool is great for this, haven't tested with Gemini or Claude yet) and once I'm happy with it, I'll ask it to generate the Bricks clipboard JSON to match the mockup as closely as possible.
 
+Always ask the agent if it has enough context for how to build something - not every Bricks element is covered by the readme doc. If in doubt, add a placeholder element to your page, copy it, and paste the JSON into the chat so that the agent can see how it's built. You may have to play around with this a bit.
+
 # MY WORKFLOW - EXAMPLE PROMPTS
 
 # 1. Start a new chat
